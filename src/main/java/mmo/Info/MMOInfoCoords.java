@@ -63,7 +63,7 @@ public class MMOInfoCoords extends MMOPlugin implements Listener {
 				CustomLabel label = (CustomLabel) new CustomLabel().setResize(true).setFixed(true);
 				widgets.put(player, label);
 				event.setWidget(plugin, label);
-				event.setIcon("map.png");
+				event.setIcon("res/map.png");
 			} else {
 				event.setCancelled(true);
 			}
